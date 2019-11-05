@@ -1,0 +1,40 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+	<body>
+		<form action="DisplayStaff.php" method="post">
+			<ul class="form-style-1">
+			<h3> Fitler </h3>			
+				<li>
+					<label>Name</label>
+					<input type="text" name="name" class="field-divided" /> 
+				</li>
+				<li>
+					<label>Job Title</label>				
+					<select name="job_title" class="field-divided">
+					<option value="Manager">Manager</option>
+					<option value="Mechanic">Mechanic</option>
+					<option value="Lecturer">Lecturer</option>
+					</select>
+				</li>	
+				<li>
+					<label>Branch</label>				
+					<select name="branch" class="field-divided">
+					<option value="UK">UK</option>
+					<option value="Sweden">Sweden</option>
+					<option value="USA">USA</option>
+					</select>
+				</li>				
+				<li>
+					<label>Salary</label>
+					<input type="number" name="sal_min"  placeholder="min" /> <input type="number" name="sal_max"  placeholder="max" />
+				</li>							
+				<li>
+					<input type="submit" value="Submit" />
+				</li>
+			</ul>
+		</form>
+	</body>
+<html>
+https://www.sanwebe.com/2014/08/css-html-forms-designs
