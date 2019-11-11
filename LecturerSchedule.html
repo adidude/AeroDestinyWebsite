@@ -1,0 +1,107 @@
+ <!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8" />
+    <title>Schedule</title>
+<!-- =======================================================
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+ ======================================================= -->
+  <style>
+        table {
+            width: 50%;
+            border-collapse: collapse; 
+            /*border-collapse 属性设置是否将表格边框折叠为单一边框*/
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th {
+            height: 50px;
+            background-color: green;
+            color:white;
+        }
+
+        td {
+            text-align: center;
+            padding: 15px; /*表格内边距*/
+        }
+        td{
+           style="color:#9933CA" 
+        }
+
+    </style>
+
+  <?php
+    readfile('headStyle.html');
+  ?>
+
+</head>
+
+<body background="img/male.jpg">
+<p><a class="navbar-brand" href="index.html"><img src="img/LOGO.PNG" class="img-fluid" alt="AeroDestiny Logo"></a></p>
+<hr class="pg-titl-bdr-btm"></hr>
+<h1 style="color:#9933CA">&nbsp  Schedule</h1>
+ 
+  <table class="table table-bordered table-hover" style="margin-top:30px;">
+        <caption>
+            <h2 style="margin-top:40px; color:black;" align="center">your schedule</h2>
+        </caption>
+        <thead>
+            <tr class="info">
+                <td rowspan="2" width="150" align="center" valign="middle">Time slot</td>
+                <td rowspan="2" width="150"align="center" valign="middle">Course</td>
+	<td rowspan="2" align="center" valign="middle">Student</td>
+   
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="success">
+                <td align="center" valign="middle">06:00-08:00</td>
+                <td align="center" valign="middle">Free</td>
+                <td align="center" valign="middle"></td>
+   
+            </tr>
+            <tr class="success">
+       	
+	<td align="center" valign="middle">08:00-12:00</td>
+                <td align="center" valign="middle">Helicopter</td>
+                <td align="center" valign="middle">Jonathan Miles</td>
+
+            </tr>
+            <tr class="success">
+	<td align="center" valign="middle">12:00-14:00</td>
+                <td align="center" valign="middle"> Free</td>
+                <td align="center" valign="middle"></td>
+      
+            </tr>
+            <tr class="success">
+	<td align="center" valign="middle">14:00-16:00</td>
+                <td align="center" valign="middle">Bowing 747</td>
+                <td align="center" valign="middle">Andrew Mitchell</td>
+ 
+            </tr>
+            <tr class="success">
+	<td align="center" valign="middle">16:00-18:00</td>
+                <td align="center" valign="middle">Free</td>
+                <td align="center" valign="middle"></td>
+
+            </tr>
+            <tr class="success">
+	<td align="center" valign="middle">18:00-20:00</td>
+                <td align="center" valign="middle">Free</td>
+                <td align="center" valign="middle"></td>
+            </tr>
+            
+        </tbody>
+    </table>
+<br><br><br>
+<hr>
+</body>
+
+</html>
+<!-- =======================================================
+reference: https://blog.csdn.net/SundayAaron/article/details/53358008
+ ======================================================= -->
