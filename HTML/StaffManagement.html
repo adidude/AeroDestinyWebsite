@@ -3,7 +3,7 @@
 	<link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 	<body>
-		<form action="DisplayStaff.php" method="post">
+		<form action="../PHP/displayStaff.php" method="post">
 			<ul class="form-style-1">
 			<h3> Fitler </h3>			
 				<li>
@@ -15,7 +15,7 @@
 					<select name="job_title" class="field-divided">
 					<option value="Manager">Manager</option>
 					<option value="Mechanic">Mechanic</option>
-					<option value="Lecturer">Lecturer</option>
+					<option value="Instructor">Instructor</option>
 					</select>
 				</li>	
 				<li>
@@ -31,7 +31,7 @@
 					<input type="number" name="sal_min"  placeholder="min" /> <input type="number" name="sal_max"  placeholder="max" />
 				</li>							
 				<li>
-					<input type="submit" value="Submit" />
+					<input type="submit" name="submit" value="submit" />
 				</li>
 			</ul>
 		</form>
